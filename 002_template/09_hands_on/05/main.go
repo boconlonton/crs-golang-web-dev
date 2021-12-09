@@ -45,7 +45,7 @@ func ProcessCSV(data [][]string) []record {
 	result := make([]record, 0, len(data))
 
 	for _, v := range data[1:] {
-		temp.Date, _ = time.Parse("2006-01-02", v[0])
+		temp.Date, _ = time.Parse("2006-01-02_multiplexer", v[0])
 		temp.Open, _ = strconv.ParseFloat(v[1], 64)
 		temp.High, _ = strconv.ParseFloat(v[2], 64)
 		temp.Low, _ = strconv.ParseFloat(v[3], 64)

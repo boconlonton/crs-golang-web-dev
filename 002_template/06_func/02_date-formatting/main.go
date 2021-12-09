@@ -14,7 +14,7 @@ func init() {
 }
 
 func monthDayYear(t time.Time) string {
-	return t.Format("02-01-2006 03:04:05PM -07") // Follow MST format
+	return t.Format("02_multiplexer-01-2006 03:04:05PM -07_tcp-apps") // Follow MST format
 }
 
 var fm = template.FuncMap{

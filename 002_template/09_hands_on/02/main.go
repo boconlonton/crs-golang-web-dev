@@ -29,7 +29,7 @@ func main() {
 		},
 		{
 			Name:    "Hotel 2",
-			Address: "02 Avenue",
+			Address: "02_multiplexer Avenue",
 			City:    "California",
 			Zip:     "70001",
 			Region:  "Central",
